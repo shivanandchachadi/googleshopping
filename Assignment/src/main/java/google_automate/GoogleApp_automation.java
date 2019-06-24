@@ -110,6 +110,10 @@ public class GoogleApp_automation {
 
 		Thread.sleep(2000);
 		// select order by low to high price
+		
+		driver.findElement(By.xpath("//span[@class='Yf5aUd']")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[contains(text(),'PRICE – LOW TO HIGH')]")).click();
 
 		List<WebElement> total= driver.findElements(By.xpath(xpath_read.pathread("elements")));
 		count=total.size();

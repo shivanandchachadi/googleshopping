@@ -6,6 +6,7 @@
       <class name="googletestpage.Testgoogle">
         <methods>
           <include name="fetchdata"/>
+          <include name="writedata"/>
           <include name="initialisefile"/>
           <include name="closeall"/>
         </methods>

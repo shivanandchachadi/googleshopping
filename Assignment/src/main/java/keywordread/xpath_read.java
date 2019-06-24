@@ -9,7 +9,7 @@ public class xpath_read {
 
 
 	public static String pathread(String keyname) throws Exception {
-		String path="C:\\Users\\shivanand.chachadi\\framework\\workspace\\Assignment\\src\\main\\resources\\keywords_package\\keywordfile.properties";
+		String path="C:\\Users\\shivanand.chachadi\\git\\googleshopping\\Assignment\\src\\main\\resources\\keywords_package\\keywordfile.properties";
 		Properties prop=new Properties();		
 		FileInputStream file=new FileInputStream(path);
 		prop.load(file);
