@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66534" started-at="2019-06-24T09:46:11Z" finished-at="2019-06-24T09:47:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66534" started-at="2019-06-24T09:46:11Z" finished-at="2019-06-24T09:47:17Z">
+      <class name="googletestpage.Testgoogle">
+        <test-method status="PASS" signature="initialisefile()[pri:0, instance:googletestpage.Testgoogle@ae45eb6]" name="initialisefile" is-config="true" duration-ms="26113" started-at="2019-06-24T09:46:11Z" finished-at="2019-06-24T09:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisefile -->
+        <test-method status="PASS" signature="fetchdata()[pri:0, instance:googletestpage.Testgoogle@ae45eb6]" name="fetchdata" duration-ms="34962" started-at="2019-06-24T09:46:37Z" finished-at="2019-06-24T09:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchdata -->
+        <test-method status="PASS" signature="writedata()[pri:0, instance:googletestpage.Testgoogle@ae45eb6]" name="writedata" duration-ms="3508" started-at="2019-06-24T09:47:12Z" finished-at="2019-06-24T09:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writedata -->
+        <test-method status="PASS" signature="closeall()[pri:0, instance:googletestpage.Testgoogle@ae45eb6]" name="closeall" is-config="true" duration-ms="1919" started-at="2019-06-24T09:47:15Z" finished-at="2019-06-24T09:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- googletestpage.Testgoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
