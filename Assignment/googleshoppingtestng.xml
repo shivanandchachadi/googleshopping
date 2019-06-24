@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleShopping" parallel="classes">
+
+
+
+<test name=" test 1">
+	<classes>
+		<class name="googletestpage.Testgoogle"></class>
+		</classes>
+</test>
+
+</suite>
